@@ -1,4 +1,3 @@
-<script>
     document.getElementsByTagName('body')[0].style.visibility = "visible";
     document.getElementById("kf-url").addEventListener('click', checkUrlExists);
     console.log("Added event lister to kf-url");
@@ -133,4 +132,3 @@
         console.log("Copied!");
         document.body.removeChild(temp);
     }
-</script>

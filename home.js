@@ -1,4 +1,3 @@
-<script>
     function refreshCustomerClaims() {
         return new Promise(function (resolve, reject) {
             firebase.auth().currentUser.getIdToken()
@@ -37,4 +36,3 @@
                 console.log(error);
             })
     }
-</script>
